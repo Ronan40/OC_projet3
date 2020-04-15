@@ -48,10 +48,6 @@ h1{
     
 }
 
-ul{
-    list-style: none;
-}
-
 .menu1{
      border: 1px solid black;
      width: 40%;
@@ -81,7 +77,10 @@ footer{
     background-color: #53A791;
 }
 
-.p_footer{
+footer a{
+    display: flex;  
+    font-size: 20px;
+    text-decoration: none;
     color: #FFD740;
     font-family: Arial, Helvetica, sans-serif;
 }
