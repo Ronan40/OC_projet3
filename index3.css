@@ -18,7 +18,7 @@ header{
 }
 
 h1{
-    font-size: 55px;
+    font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -4px;
     color: #FFD740;
@@ -26,17 +26,17 @@ h1{
     padding-bottom: 20px; 
 }
 .fly2{
-    font-size: 100px;
+    font-size: 120px;
     color: #FFD740;
-    margin-left: 500px;
-    margin-right: -400px;
+    margin-left: 400px;
+    margin-right: -300px;
 }
 
 .fly{
-    font-size: 100px;
+    font-size: 120px;
     color: #FFD740;
-    margin-right: 500px;
-    margin-left:  -400px;
+    margin-right: 400px;
+    margin-left: -300px;
 }
 
 /* MENUS */
@@ -46,26 +46,28 @@ h1{
     flex-flow: row wrap;
     justify-content: space-around;
     text-align: center;
+    min-height: 1500px;
+    
 }
 
 .menu1{
      border: 1px solid black;
      margin: 50px;
-     width: 40%;
+     min-width: 40%;
      background-color: #FFE0E3;
 }
 
 .menu2{
      border: 1px solid black;
      margin: 50px;
-     width: 40%;
+     min-width: 40%;
      background-color: #FFEEF9;
 }
 
 .menu3{
      border: 1px solid black;
      margin: 50px;
-     width: 40%;
+     min-width: 40%;
      background-color: #F7F7F7;
      
 }
@@ -73,9 +75,23 @@ h1{
 .menu4{
      border: 1px solid black;
      margin: 50px;
-     width: 40%;
+     min-width: 40%;
 }
 
+.proch{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    border: 1px hidden;
+    border-radius: 20px;
+    background-color: #53A791;
+    color: #FFD740;
+    width: 45%;
+    height: 60px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    padding: 5px 0 5px 0
+}
 
 /* FOOTER */
 
@@ -83,12 +99,13 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 25px;
     background-color: #53A791;
 }
 
 footer a{
-    margin: 0 20px 0 20px;
-    font-size: 20px;
+    margin: 80px;
+    font-size: 35px;
     text-decoration: none;
     color: #FFD740;
     font-family: Arial, Helvetica, sans-serif;
