@@ -39,6 +39,31 @@ h1{
     margin-left: -300px;
 }
 
+/* MENTIONS LEGALES */
+
+ul{
+    list-style: none;
+    padding-bottom: 100px;
+}
+li{
+    padding: 20px;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: -50px; 
+    margin-bottom: 100px; 
+}
+
+h3{
+    font-size: 28px;
+    color: #FFD740;
+    padding-bottom: 50px;
+}
+.mention{
+    text-align: center;
+    margin: 100px 0 200px 0;
+}
 
 /* FOOTER */
 
@@ -46,7 +71,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 25px;
+    padding: 10px 0 10px 0;
     background-color: #53A791;
 }
 
