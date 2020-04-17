@@ -54,29 +54,32 @@ div a{
 }
 
 .menu1{
-     border: 1px solid black;
+     border: hidden;
+     box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
      min-width: 40%;
      background-color: #FFE0E3;
 }
 
 .menu2{
-     border: 1px solid black;
+     border: hidden;
+     box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
      min-width: 40%;
      background-color: #FFEEF9;
 }
 
 .menu3{
-     border: 1px solid black;
+     border: hidden;
+     box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
      min-width: 40%;
-     background-color: #F7F7F7;
-     
+     background-color: #F7F7F7;   
 }
 
 .menu4{
-     border: 1px solid black;
+     border: hidden;
+     box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
      min-width: 40%;
 }

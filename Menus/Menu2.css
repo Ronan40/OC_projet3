@@ -41,6 +41,26 @@ h1{
 
 /* MENUS */
 
+h2{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    min-height: 1000px;  
+}
+
+.menu2{
+    border: hidden;
+    box-shadow: 1px 1px 12px #aaa; 
+    margin: 50px;
+    min-width: 80%;
+    background-color: #FFEEF9;
+}
+
 /* FOOTER */
 
 footer{

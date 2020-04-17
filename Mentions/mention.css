@@ -41,15 +41,13 @@ h1{
 
 /* MENTIONS LEGALES */
 
-ul{
+p{
     list-style: none;
-    padding-bottom: 100px;
-}
-li{
-    padding: 20px;
+    padding-bottom: 50px;
 }
 
 h2{
+    text-decoration: underline;
     font-size: 35px;
     margin-top: -50px; 
     margin-bottom: 100px; 
@@ -61,8 +59,15 @@ h3{
     padding-bottom: 50px;
 }
 .mention{
+    padding-top: 50px;
     text-align: center;
     margin: 100px 0 200px 0;
+}
+
+.condition{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -70px
 }
 
 /* FOOTER */
