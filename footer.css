@@ -1,0 +1,17 @@
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 25px;
+    background-color: #53A791;
+}
+
+footer a{
+    margin: 80px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #FFD740;
+    font-family: Arial, Helvetica, sans-serif;
+}
