@@ -14,6 +14,10 @@ body{
 
 h2{
     text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #424242;
+    margin-top: 70px;
 }
 
 .menu{
@@ -22,4 +26,7 @@ h2{
     justify-content: center;
     text-align: center;
     min-height: 1000px;  
+    margin-bottom: 50px;
+    margin-top: -40px;
+
 }
