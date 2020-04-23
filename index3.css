@@ -60,7 +60,7 @@ section a{
 
 .music{
     font-size: 80px;
-    color: orange;
+    color: orangered;
 }
 
 .menu1{
@@ -69,15 +69,39 @@ section a{
      margin: 50px;
      background-color: #FFE0E3;
      font-size: 30px;
-     
 }
 
+.note{
+    font-family: 'Cookie', fantasy;
+    font-size: 40px;
+}
+
+.menu1b{
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: -20px;
+}
 
 .menu2{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
      background-color: #FFEEF9;
+}
+
+.chic{
+    font-family: 'Amita', cursive;
+    font-size: 35px;
+    color: #D17441; 
+}
+
+.menu2b{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #D17441;  
+    margin-top: -15px;     
 }
 
 .menu3{
@@ -87,10 +111,34 @@ section a{
      background-color: #F7F7F7;   
 }
 
+.delice{
+     font-family: 'Dancing Script', cursive;
+     font-size: 40px;
+     color: #1E7AF8
+}
+
+.menu3b{
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    color: #1E7AF8;
+}
+
 .menu4{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
+}
+
+.palette{
+    font-family: 'Kaushan Script';
+    font-size: 40px;
+    color: #3EA94B;
+}
+
+.menu4b{
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    color: #3EA94B;
 }
 
 .proch{
@@ -114,8 +162,8 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #53A791;
 }
 
