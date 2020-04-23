@@ -49,23 +49,34 @@ h1{
     min-height: 1500px;  
 }
 
-div a{
+section a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    color: black;
+    width: 40%;
+}
+
+.music{
+    font-size: 80px;
+    color: orange;
 }
 
 .menu1{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
-     min-width: 40%;
      background-color: #FFE0E3;
+     font-size: 30px;
+     
 }
+
 
 .menu2{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
-     min-width: 40%;
      background-color: #FFEEF9;
 }
 
@@ -73,7 +84,6 @@ div a{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
-     min-width: 40%;
      background-color: #F7F7F7;   
 }
 
@@ -81,7 +91,6 @@ div a{
      border: hidden;
      box-shadow: 1px 1px 12px #aaa; 
      margin: 50px;
-     min-width: 40%;
 }
 
 .proch{
