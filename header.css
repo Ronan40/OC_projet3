@@ -18,17 +18,3 @@ h1 a{
     text-decoration: none;
     color: #FFD740;
 }
-
-.fly2{
-    font-size: 120px;
-    color: #FFD740;
-    margin-left: 400px;
-    margin-right: -300px;
-}
-
-.fly{
-    font-size: 120px;
-    color: #FFD740;
-    margin-right: 400px;
-    margin-left: -300px;
-}
