@@ -1,5 +1,22 @@
 /* MENUS */
 
+h3{
+    font-family: 'cookie', cursive;
+    font-size: 60px;
+}
+
+h3:before, h3:after{
+
+}
+
+h4{
+    font-family: 'handlee', cursive;
+}
+
+ul{
+    font-family: 'handlee', cursive;
+}
+
 .menu1{
     border: hidden;
     box-shadow: 1px 1px 12px #aaa; 
@@ -9,7 +26,17 @@
 }
 
 .music{
-     color: orange;
+     color: orangered;
      font-size: 100px;
      padding-top: 50px;
+}
+
+.music2{
+   font-size: 50px;
+   color: orangered;
+}
+
+p{
+    font-family: 'cookie', cursive;
+    font-size: 40px;
 }

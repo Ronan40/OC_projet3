@@ -7,3 +7,27 @@
     min-width: 80%;
     background-color: #FFEEF9;
 }
+
+h3{
+    font-size: 55px;
+    font-family: 'amita', cursive;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h4{
+    font-family: 'Cormorant Garamond', cursive;
+    font-weight: bold;
+}
+
+.marron{
+    color: #D17441; 
+}
+
+.purple{
+    color: #B175A7
+}
+
+.blue{
+    color: #6447CD;
+}
