@@ -51,7 +51,9 @@ section a{
 
 .music{
     font-size: 80px;
-    color: orangered;
+    background: linear-gradient(to right, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .menu1{
