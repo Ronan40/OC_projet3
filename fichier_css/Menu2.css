@@ -13,6 +13,9 @@ h3{
     font-family: 'amita', cursive;
     margin-top: 100px;
     margin-bottom: 100px;
+    background: linear-gradient(to right, #D17441 30%,#B175A7 50%, #6447CD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4{
@@ -24,10 +27,22 @@ h4{
     color: #D17441; 
 }
 
+.marron:before, .marron:after{
+    background-color: #D17441;
+}
+
 .purple{
-    color: #B175A7
+    color: #B175A7;
+
+}
+.purple:before, .purple:after{
+    background-color: #B175A7;
 }
 
 .blue{
     color: #6447CD;
+}
+
+.blue:before, .blue:after{
+    background-color: #6447CD;
 }

@@ -44,3 +44,18 @@ p{
     align-items: center;
 }
 
+.do:before, .do:after{
+    content:''; display:inline-block; vertical-align: middle; width: 25%; height: 5px; background: #000;
+}
+
+.do:before{
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.do:after{
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
+}
