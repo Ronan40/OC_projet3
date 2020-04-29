@@ -46,3 +46,33 @@ h4{
 .blue:before, .blue:after{
     background-color: #6447CD;
 }
+
+.marron2{
+    text-decoration: none;
+    background: linear-gradient(to top, #D17441 0%, #D17441 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.marron2:hover {
+    background-size: 100% 100%;
+  }
+
+.purple2{
+    text-decoration: none;
+    background: linear-gradient(to top, #B175A7 0%, #B175A7 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.purple2:hover {
+    background-size: 100% 100%;
+  }
+
+.blue2{
+    text-decoration: none;
+    background: linear-gradient(to top, #6447CD 0%, #6447CD 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.blue2:hover {
+    background-size: 100% 100%;
+  }  

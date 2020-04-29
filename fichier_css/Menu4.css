@@ -30,3 +30,13 @@ ul{
 .verde:after{
     background: linear-gradient(to left, #24702A, #70FF2C);
 }
+
+.verde{
+    text-decoration: none;
+    background: linear-gradient(to top, #24702A 0%, #70FF2C 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.verde:hover {
+    background-size: 100% 100%;
+  }

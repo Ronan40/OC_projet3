@@ -64,3 +64,13 @@ p{
     margin-top: 20px;
     margin-right: 110px;
 }
+
+.do{
+    text-decoration: none;
+    background: linear-gradient(to top, orange 0%, orange 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+  .do:hover {
+    background-size: 100% 100%;
+  }

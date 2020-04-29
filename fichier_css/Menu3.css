@@ -35,3 +35,33 @@ ul{
 .skyblue:before, .skyblue:after{
     background-color: #408DF7;
 }
+
+.night{
+    text-decoration: none;
+    background: linear-gradient(to top, #061DC9 0%, #061DC9 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.night:hover {
+    background-size: 100% 100%;
+  }
+
+.sea{
+    text-decoration: none;
+    background: linear-gradient(to top, #2D41FF 0%, #2D41FF 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.sea:hover {
+    background-size: 100% 100%;
+  }
+
+.sky{
+    text-decoration: none;
+    background: linear-gradient(to top, #408DF7 0%, #408DF7 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+.sky:hover {
+    background-size: 100% 100%;
+  }

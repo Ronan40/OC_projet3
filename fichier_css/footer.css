@@ -4,16 +4,32 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
     background-color: #53A791;
+
 }
 
 footer a{
-    margin: 80px;
+    margin: 30px;
     font-size: 35px;
     text-decoration: none;
     color: #FFD740;
     font-family: sans-serif;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+.wiggle:hover {
+  animation: none;
 }
 

@@ -153,21 +153,59 @@ section a{
     padding: 5px 0 5px 0
 }
 
+
+.proch:after{
+    overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026";
+  width: 0px;
+}
+
+@keyframes ellipsis {
+    to {
+      width: 1.25em;    
+    }
+  }
+  
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;    
+    }
+  }
+
 /* FOOTER */
 
 footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #53A791;
-}
+    }
 
 footer a{
-    margin: 80px;
+    margin: 30px;
     font-size: 35px;
     text-decoration: none;
     color: #FFD740;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+.wiggle:hover {
+  animation: none;
 }
