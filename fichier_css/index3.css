@@ -59,6 +59,7 @@ section a{
 .music{
     font-size: 80px;
     background: linear-gradient(to right, red, orange);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -92,6 +93,7 @@ section a{
     font-family: 'Amita', cursive;
     font-size: 35px;
     background: linear-gradient(to right,  #D17441 30%,#B175A7 50%, #6447CD 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -114,6 +116,7 @@ section a{
      font-family: 'Dancing Script', cursive;
      font-size: 40px;
      background: linear-gradient(to right, #061DC9 0%, #2D41FF 50%, #408DF7 100%);
+     background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      padding-left: 5px;
@@ -134,9 +137,10 @@ section a{
     font-family: 'Kaushan Script';
     font-size: 40px;
     background: linear-gradient(to right, #24702A 0%, rgb(74, 184, 87) 50%, #70FF2C 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     padding-right: 5px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 5px;
 }
 
 .menu4b{

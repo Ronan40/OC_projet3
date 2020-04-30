@@ -23,6 +23,7 @@ ul{
 
 .music{
     background: linear-gradient(to right, red, orange);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 100px;
@@ -31,6 +32,7 @@ ul{
 
 .music2{
     background: linear-gradient(to right, red, orange);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;

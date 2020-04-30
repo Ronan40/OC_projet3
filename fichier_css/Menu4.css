@@ -11,6 +11,7 @@ h3{
     font-size: 90px;
     font-family: 'Kaushan Script';
     background: linear-gradient(to right, #24702A 0%, rgb(74, 184, 87) 50%, #70FF2C 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

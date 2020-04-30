@@ -12,6 +12,7 @@ h3{
     font-size: 90px;
     font-family: 'dancing Script', cursive;
     background: linear-gradient(to right, #061DC9 0%, #2D41FF 50%, #408DF7 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
