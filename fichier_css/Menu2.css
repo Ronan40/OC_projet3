@@ -15,6 +15,7 @@ h3{
     margin-top: 100px;
     margin-bottom: 100px;
     background: linear-gradient(to right, #D17441 30%,#B175A7 50%, #6447CD 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
