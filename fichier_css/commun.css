@@ -72,14 +72,14 @@ h4:after{
 /* MEDIA QUERIES */
 
 
-@media all and (max-width: 1150px){
+@media all and (max-width: 1250px){
     ul{
         font-size: 20px;
         margin-left: -5px;
     }
 
     h4{
-        font-size: 25px;
+        font-size: 28px;
     }
 
   .do:before, .do:after{
@@ -95,7 +95,7 @@ h4:after{
     }
 
     h3{
-        font-size: 70px;
+        font-size: 65px;
     }
 }
 
