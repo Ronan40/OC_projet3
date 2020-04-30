@@ -5,6 +5,8 @@ footer{
     justify-content: space-between;
     width: 100%;
     background-color: #53A791;
+    position: sticky;
+    bottom: 0;
 
 }
 
@@ -33,3 +35,31 @@ footer a{
   animation: none;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px){
+  footer a{
+    margin: 25px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  footer a{
+    margin: 20px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 443px){
+  footer a{
+    margin: 15px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 352px){
+  footer a{
+    margin: 10px;
+    font-size: 15px;
+  }
+}

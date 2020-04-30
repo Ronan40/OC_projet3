@@ -34,19 +34,15 @@ ul{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
-   
-}
-
-p{
-    font-family: 'cookie', cursive;
-    font-size: 40px;
-    padding-left: 20px;
+   padding-right: 10px;
 }
 
 .bas{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'cookie', cursive;
+    font-size: 50px;
 }
 
 .do:before, .do:after{
@@ -67,10 +63,10 @@ p{
 
 .do{
     text-decoration: none;
-    background: linear-gradient(to top, orange 0%, orange 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
+    background: linear-gradient(to top, orange 0%, orange 10%, transparent 10.01%) no-repeat right bottom / 0 80%;
     transition: background-size .5s;
   }
   
   .do:hover {
-    background-size: 100% 100%;
+    background-size: 100% 80%;
   }
