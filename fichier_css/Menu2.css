@@ -48,34 +48,52 @@ h4{
 .blue:before, .blue:after{
     background-color: #6447CD;
 }
-
-.marron2{
-    text-decoration: none;
-    background: linear-gradient(to top, #D17441 0%, #D17441 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-    
-  }
   
-.marron2:hover {
-    background-size: 100% 100%;
-  }
+.marron2:hover + hr{
+   animation: underlined 1.2s linear forwards;
+}
 
-.purple2{
-    text-decoration: none;
-    background: linear-gradient(to top, #B175A7 0%, #B175A7 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-  }
-  
-.purple2:hover {
-    background-size: 100% 100%;
-  }
+.marron2 + hr{
+    width: 0;
+    margin-left: 37.5%;
+    border: none;
+    background-color: #D17441;
+}
 
-.blue2{
-    text-decoration: none;
-    background: linear-gradient(to top, #6447CD 0%, #6447CD 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-  }
-  
-.blue2:hover {
-    background-size: 100% 100%;
-  }  
+.purple2:hover + hr{
+    animation: underlined 1.2s linear forwards;
+}
+ 
+.purple2 + hr{
+    width: 0;
+    margin-left: 37.5%;
+    border: none;
+    background-color: #B175A7;
+}
+
+.blue2:hover + hr{
+    animation: underlined 1.2s linear forwards;
+}
+ 
+.blue2 + hr{
+    width: 0;
+    margin-left: 37.5%;
+    border: none;
+    background-color: #6447CD;
+}
+
+@keyframes underlined{
+    from {
+        width: 0;
+        height: 0px;
+    }
+
+    to{
+        width: 25%;
+        height: 4px;
+    }
+}
+
+   
+
+

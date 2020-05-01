@@ -69,6 +69,7 @@ h4:after{
     margin-right: 30px;
 }
 
+
 /* MEDIA QUERIES */
 
 
@@ -83,15 +84,15 @@ h4:after{
     }
 
   .do:before, .do:after{
-    content:none; display:inline-block; vertical-align: middle; width: 30%; height: 5px; background: #000;
+        content:none; display:inline-block; vertical-align: middle; width: 30%; height: 5px; background: #000;
     }
 
    h4:before, h4:after{
-    content:none; display:inline-block; vertical-align: middle; width: 30%; height: 5px; background: #000;
+        content:none; display:inline-block; vertical-align: middle; width: 30%; height: 5px; background: #000;
     }
 
    span{
-    margin-right: -50px;
+        margin-right: -50px;
     }
 
     h3{
@@ -111,7 +112,7 @@ h4:after{
 
     span{
         margin-right: -60px;
-        }
+    }
     
     .bas{
         font-size: 40px;
@@ -130,9 +131,9 @@ h4:after{
 
     span{
         margin-right: -70px;
-        }
+    }
 
-     h3{
+    h3{
         font-size: 50px;
     }    
 
@@ -153,9 +154,9 @@ h4:after{
 
     span{
         margin-right: -80px;
-        }
+    }
 
-     h3{
+    h3{
         font-size: 45px;
     }    
 
@@ -176,9 +177,9 @@ h4:after{
 
     span{
         margin-right: -90px;
-        }
+    }
 
-     h3{
+    h3{
         font-size: 40px;
     }    
 
@@ -199,9 +200,9 @@ h4:after{
 
     span{
         margin-right: -95px;
-        }
+    }
 
-     h3{
+    h3{
         font-size: 33px;
     }    
 
@@ -225,10 +226,11 @@ h4:after{
     }
 
     span{
+        font-size: 20px;
         margin-right: -80px;
-        }
+    }
 
-     h3{
+    h3{
         font-size: 35px;
     }    
 

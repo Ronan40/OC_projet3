@@ -32,14 +32,26 @@ ul{
     background: linear-gradient(to left, #24702A, #70FF2C);
 }
 
-.verde{
-    text-decoration: none;
-    background: linear-gradient(to top, #24702A 0%, #70FF2C 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-  }
+.verde:hover + hr{
+    animation: underlined 1.2s linear forwards;
+}
   
-.verde:hover {
-    background-size: 100% 100%;
+.verde + hr{
+    width: 0;
+    margin-left: 37.5%;
+    border: none;
+    background-color: rgb(44, 168, 55);
+}
+  
+@keyframes underlined{
+    from {
+        width: 0;
+        height: 0px;
+    }
+  
+    to{
+        width: 25%;
+        height: 4px;
+    }
   }
-
   

@@ -34,9 +34,20 @@ h1{
     justify-content: center;
 }
 
-.menu:hover{
-    transform: scale(1.1);
-    opacity: 0.8;
+.menu:hover *{
+   animation: zoom 2s linear forwards;
+}
+
+@keyframes zoom{
+    from{
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    to{
+        opacity: 0.5;
+        transform: scale(1.5)
+    }
 }
 
 .menu{

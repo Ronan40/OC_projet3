@@ -37,32 +37,47 @@ ul{
     background-color: #408DF7;
 }
 
-.night{
-    text-decoration: none;
-    background: linear-gradient(to top, #061DC9 0%, #061DC9 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-  }
-  
-.night:hover {
-    background-size: 100% 100%;
+.night:hover + hr{
+  animation: underlined 1.2s linear forwards;
+}
+
+.night + hr{
+  width: 0;
+  margin-left: 37.5%;
+  border: none;
+  background-color: #061DC9;
+}
+
+.sea:hover + hr{
+  animation: underlined 1.2s linear forwards;
+}
+
+.sea + hr{
+  width: 0;
+  margin-left: 37.5%;
+  border: none;
+  background-color: #2D41FF;
+}
+
+.sky:hover + hr{
+  animation: underlined 1.2s linear forwards;
+}
+
+.sky + hr{
+  width: 0;
+  margin-left: 37.5%;
+  border: none;
+  background-color: #408DF7;
+}
+
+@keyframes underlined{
+  from {
+      width: 0;
+      height: 0px;
   }
 
-.sea{
-    text-decoration: none;
-    background: linear-gradient(to top, #2D41FF 0%, #2D41FF 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
+  to{
+      width: 25%;
+      height: 4px;
   }
-  
-.sea:hover {
-    background-size: 100% 100%;
-  }
-
-.sky{
-    text-decoration: none;
-    background: linear-gradient(to top, #408DF7 0%, #408DF7 10%, transparent 10.01%) no-repeat right bottom / 0 100%;
-    transition: background-size .5s;
-  }
-  
-.sky:hover {
-    background-size: 100% 100%;
-  }
+}
