@@ -35,7 +35,7 @@ h1{
 }
 
 .menu:hover *{
-   animation: zoom 2s linear forwards;
+   animation: zoom 1.9s linear forwards;
 }
 
 @keyframes zoom{
