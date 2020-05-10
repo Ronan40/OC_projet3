@@ -69,19 +69,15 @@ ul{
   
 .do:hover + hr{
    animation: underlined 1.2s linear forwards;
-
 }
 
 .do + hr{
     width: 0;
-    padding: 0;
-    height:0;
-    margin: 0;
-    line-height: 1px;
-    margin-left: 39%;
+    left: 39%;
     margin-top: -2%;
     border: none;
     background-color: orangered;
+    position: absolute;
 
 }
 
@@ -101,7 +97,7 @@ ul{
 
 @media (max-width: 1200px){
     .do + hr{
-        margin-left: 39%;
+        left: 39%;
     }
 
     .do:before{
@@ -152,7 +148,7 @@ ul{
 @media (max-width: 450px){
 
     .do + hr{
-        margin-left: 37.5%;
+        left: 37.5%;
     }
 
 .do:before, .do:after{
