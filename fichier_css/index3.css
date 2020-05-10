@@ -50,6 +50,7 @@ h1{
     }
 }
 
+
 .menu{
     display: flex;
     justify-content: center;
@@ -73,6 +74,7 @@ section a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    border: solid #FFE0E3;
 }
 
 .menu1{
@@ -107,6 +109,8 @@ section a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    border: solid #FFEEF9;
+    transform: scale(1);
 }
 
 .menu2b{
@@ -126,11 +130,13 @@ section a{
 .delice{
      font-family: 'Dancing Script', cursive;
      font-size: 40px;
-     background: linear-gradient(to right, #061DC9 0%, #2D41FF 50%, #408DF7 100%);
+     background: linear-gradient(to right, #061DC9 0%, #2D41FF 50%, #408DF7 100%) repeat;
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      padding-left: 5px;
+     border: solid #F7F7F7;
+     transform: scale(1);
 }
 
 .menu3b{
@@ -152,6 +158,7 @@ section a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: 5px;
+    border: solid white;
 }
 
 .menu4b{
@@ -244,18 +251,17 @@ footer a{
   100% { transform: rotate(0deg); }
 }
 
-.wiggle {
-  display: inline-block;
+.wiggle:hover {
   animation: wiggle 2.5s infinite;
 }
 
-.wiggle:hover {
+.wiggle {
+  display: inline-block;
   animation: none;
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 700px){
+@media all and (max-width: 700px){
     footer a{
       margin: 20px;
       font-size: 25px;
@@ -271,9 +277,49 @@ footer a{
         width: 450px;
         height: 500px;
     }
+
+    .music{
+        font-size: 60px;
+    }   
+
+    .menu1{
+        font-size: 25px;
+    }
+
+    .note{
+        font-size: 30px;
+    }
+
+    .menu1b{
+        font-size: 40px;
+    }
+    .chic{
+        font-size: 25px;
+    }
+
+    .menu2b{
+        font-size: 35px;
+    }
+
+    .delice{
+        font-size: 30px;
+    }
+
+    .menu3b{
+        font-size: 35px;
+    }
+
+    .palette{
+        font-size: 30px;
+    }
+
+    .menu4b{
+        font-size: 35px;
+    }
+
   }
 
-@media screen and (max-width: 608px){
+@media all and (max-width: 608px){
     footer a{
       margin: 20px;
       font-size: 25px;
@@ -283,9 +329,12 @@ footer a{
         width: 400px;
         height: 450px;
     }
+
+    h1{
+        font-size: 60px;}
   }
 
-  @media screen and (max-width: 443px){
+  @media all and (max-width: 443px){
     footer a{
       margin: 15px;
       font-size: 20px;
@@ -297,21 +346,23 @@ footer a{
     }
 
     .proch{
-        font-size: 30px;
-        width: 300px;
-        height: 40px;
+        font-size: 25px;
+        width: 250px;
+        height: 35px;
     }
+
+  
   }
 
-  @media screen and (max-width: 380px){
+  @media all and (max-width: 380px){
     footer a{
       margin: 10px;
-      font-size: 15px;
+      font-size: 18px;
     }
 
     .menu{
-        width: 300px;
-        height: 350px;
+        width: 350px;
+        height: 400px;
     }
 
     h1{
@@ -319,3 +370,18 @@ footer a{
       }
   }
 
+  @media (max-device-width: 460px){
+    footer a{
+      margin: 10px;
+      font-size: 18px;
+    }
+
+    .menu{
+        width: 350px;
+        height: 400px;
+    }
+
+    h1{
+        font-size: 55px;
+      }
+  }

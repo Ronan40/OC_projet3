@@ -26,40 +26,49 @@ footer a{
   100% { transform: rotate(0deg); }
 }
 
-.wiggle {
-  display: inline-block;
+.wiggle:hover {
   animation: wiggle 2.5s infinite;
 }
 
-.wiggle:hover {
+.wiggle {
+  display: inline-block;
   animation: none;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 800px){
+@media (max-width: 900px){
   footer a{
     margin: 25px;
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 700px){
-  footer a{
-    margin: 20px;
     font-size: 25px;
   }
 }
 
-@media screen and (max-width: 443px){
+@media (max-width: 700px){
   footer a{
-    margin: 15px;
+    margin: 20px;
     font-size: 20px;
   }
 }
-@media screen and (max-width: 352px){
+
+@media (max-width: 450px){
+  footer a{
+    margin: 15px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px){
   footer a{
     margin: 10px;
     font-size: 15px;
   }
 }
+
+@media (max-device-width: 460px){
+  footer a{
+    margin: 10px;
+    font-size: 18px;}
+  
+  
+}
+
