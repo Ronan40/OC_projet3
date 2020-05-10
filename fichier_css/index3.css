@@ -370,18 +370,4 @@ footer a{
       }
   }
 
-  @media (max-device-width: 460px){
-    footer a{
-      margin: 10px;
-      font-size: 18px;
-    }
-
-    .menu{
-        width: 350px;
-        height: 400px;
-    }
-
-    h1{
-        font-size: 55px;
-      }
-  }
+  
